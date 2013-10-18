@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardActivity" 
+    android:background="@drawable/video_grid_bk_img">
+
+    <RelativeLayout
+        android:id="@+id/ParentDashBoardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/bookImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/centerView"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="bookmark"
+            android:src="@drawable/book" />
+
+        <ImageView
+            android:id="@+id/playlistImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/centerView"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="bookmark"
+            android:src="@drawable/playlist" />
+
+        <ImageView
+            android:id="@+id/recordImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/centerView"
+            android:contentDescription="bookmark"
+            android:src="@drawable/record" />
+
+        <ImageView
+            android:id="@+id/settingImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/centerView"
+            android:contentDescription="bookmark"
+            android:src="@drawable/setting" />
+
+        <View
+            android:id="@+id/centerView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+        </View>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/centerImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="bookmark" />
+    </RelativeLayout>
+
+</FrameLayout>

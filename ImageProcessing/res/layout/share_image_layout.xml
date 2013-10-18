@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2" >
+
+    <ImageView
+        android:id="@+id/finalShareImg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/masterlayout2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/flowers" />
+
+    <LinearLayout
+        android:id="@+id/masterlayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <EditText
+            android:id="@+id/shareImageDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/shareImageTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/twshare" />
+
+            <ImageView
+                android:id="@+id/shareImageFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/fbshare" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingActivity" >
+
+    <ImageView
+        android:id="@+id/zoomIn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:contentDescription="zoomIn"
+        android:src="@android:drawable/btn_minus" />
+
+    <ImageView
+        android:id="@+id/zoomOut"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/zoomIn"
+        android:contentDescription="zoomOut"
+        android:src="@android:drawable/btn_plus" />
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:layout_marginBottom="55dp"
+        android:layout_below="@+id/zoomIn"
+        android:contentDescription="frame"
+        >
+
+        <RelativeLayout
+            android:id="@+id/CollageFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/bacaground13"
+            android:layout_marginBottom="9dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="8dp"
+             >
+        </RelativeLayout>
+    </RelativeLayout>
+ 
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+   <!--
+           <ImageView 
+          android:id="@+id/NewImage"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center_vertical|center_horizontal"
+          android:src="@drawable/ic_launcher"
+          android:contentDescription="moveable"
+          />
+    -->
+
+    <Button
+        android:id="@+id/AddImage"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Add Image" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-projects/!svn/ver/144/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/twitter/sdk
+END
+PrepareRequestTokenActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-projects/!svn/ver/144/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/twitter/sdk/PrepareRequestTokenActivity.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-projects/!svn/ver/143/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/twitter/sdk/Constants.java
+END
+TwitterUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-projects/!svn/ver/98/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/twitter/sdk/TwitterUtils.java
+END
+OAuthRequestTokenTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-projects/!svn/ver/98/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/twitter/sdk/OAuthRequestTokenTask.java
+END

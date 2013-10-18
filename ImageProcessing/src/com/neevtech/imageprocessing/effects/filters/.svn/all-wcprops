@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-projects/!svn/ver/386/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/filters
+END
+HueFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-projects/!svn/ver/40/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/filters/HueFilter.java
+END
+BlackFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-projects/!svn/ver/38/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/filters/BlackFilter.java
+END
+ShadingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-projects/!svn/ver/42/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/filters/ShadingFilter.java
+END
+Saturation.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-projects/!svn/ver/41/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/filters/Saturation.java
+END
+DullEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-projects/!svn/ver/39/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/filters/DullEffect.java
+END

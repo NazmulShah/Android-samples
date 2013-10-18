@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/android-projects/!svn/ver/502/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util
+END
+MemCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-projects/!svn/ver/466/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/MemCacheManager.java
+END
+SaveImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-projects/!svn/ver/502/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/SaveImage.java
+END
+StoreARGB.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-projects/!svn/ver/308/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/StoreARGB.java
+END
+ShareImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-projects/!svn/ver/501/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/ShareImage.java
+END
+ConvolutionMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-projects/!svn/ver/52/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/ConvolutionMatrix.java
+END
+RippleFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-projects/!svn/ver/304/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/RippleFilter.java
+END
+SwirlFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-projects/!svn/ver/309/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/SwirlFilter.java
+END
+FlipFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-projects/!svn/ver/302/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/FlipFilter.java
+END
+SphereFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-projects/!svn/ver/307/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/SphereFilter.java
+END
+MoireFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-projects/!svn/ver/303/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/MoireFilter.java
+END
+SetOffsetPixels.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-projects/!svn/ver/306/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/util/SetOffsetPixels.java
+END

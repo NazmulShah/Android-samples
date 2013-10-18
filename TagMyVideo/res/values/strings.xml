@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TagMyVideo</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="capture">Capture</string>
+    <string name="timer_str">00.00</string>
+    <string name="bookmark">bookmark</string>
+    <string name="taggeed.videolist.title">Browse Tagged Videos</string>
+    <string name="bookmark_caption">Caption</string>
+
+</resources>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/android-projects/!svn/ver/427/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects
+END
+FlipOrMirrorEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-projects/!svn/ver/295/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/FlipOrMirrorEffect.java
+END
+GlowEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-projects/!svn/ver/11/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/GlowEffect.java
+END
+EngraveEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-projects/!svn/ver/32/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/EngraveEffect.java
+END
+GaussianEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-projects/!svn/ver/34/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/GaussianEffect.java
+END
+MeanRemovalEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-projects/!svn/ver/295/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/MeanRemovalEffect.java
+END
+GrayScaleEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-projects/!svn/ver/427/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/GrayScaleEffect.java
+END
+InvertEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-projects/!svn/ver/36/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/InvertEffect.java
+END
+EmbossEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-projects/!svn/ver/31/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/EmbossEffect.java
+END
+SnowEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-projects/!svn/ver/37/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/SnowEffect.java
+END
+SharpenEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-projects/!svn/ver/295/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/SharpenEffect.java
+END
+ContrastEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-projects/!svn/ver/30/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/ContrastEffect.java
+END
+BrightnessEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-projects/!svn/ver/27/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/effects/BrightnessEffect.java
+END
