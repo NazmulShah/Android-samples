@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/android-projects/!svn/ver/444/Source/Trunk/Neevimagick/ImageProcessing/res/anim
+END
+push_left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/android-projects/!svn/ver/342/Source/Trunk/Neevimagick/ImageProcessing/res/anim/push_left_in.xml
+END
+push_left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/android-projects/!svn/ver/342/Source/Trunk/Neevimagick/ImageProcessing/res/anim/push_left_out.xml
+END
+slide_out_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/android-projects/!svn/ver/230/Source/Trunk/Neevimagick/ImageProcessing/res/anim/slide_out_right.xml
+END
+custom_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/android-projects/!svn/ver/444/Source/Trunk/Neevimagick/ImageProcessing/res/anim/custom_anim.xml
+END
+slide_in_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/android-projects/!svn/ver/230/Source/Trunk/Neevimagick/ImageProcessing/res/anim/slide_in_right.xml
+END
+slide_in_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/android-projects/!svn/ver/230/Source/Trunk/Neevimagick/ImageProcessing/res/anim/slide_in_left.xml
+END
+slide_out_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/android-projects/!svn/ver/230/Source/Trunk/Neevimagick/ImageProcessing/res/anim/slide_out_left.xml
+END

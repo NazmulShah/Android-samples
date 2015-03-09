@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tagmyvideo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tagmyvideo.DashBoardActivity"
+            android:label="@string/title_activity_dash_board" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tagmyvideo.VideoPlayerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+ <action android:name="android.intent.action.CHOOSER" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+                <data android:mimeType="application/sdp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tagmyvideo.recorder.CamActivity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.tagmyvideo.BrowseVideoActivity"
+            android:label="@string/title_activity_dash_board" >
+        </activity>
+        <activity
+            android:name="com.example.tagmyvideo.BrowseTaggedVideoActivity"
+            android:label="@string/title_activity_dash_board" >
+        </activity>
+        <activity
+            android:name="com.example.tagmyvideo.GalleryViewActivity"
+            android:label="@string/title_activity_dash_board" >
+        </activity>
+    </application>
+
+</manifest>

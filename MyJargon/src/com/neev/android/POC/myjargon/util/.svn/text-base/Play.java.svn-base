@@ -1,0 +1,31 @@
+package com.neev.android.POC.myjargon.util;
+
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+
+public class Play {
+	
+	private MediaPlayer mediaPlayer;
+	private final String path;
+	
+	public Play(String path) {
+		mediaPlayer = new MediaPlayer();
+		this.path = path;
+	}
+	public void playRecorded(){
+		if (mediaPlayer.isPlaying()) {
+			mediaPlayer.stop();
+		}
+		mediaPlayer.reset();
+		mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+		try {
+			mediaPlayer.setDataSource(path);
+			mediaPlayer.prepare();
+		} catch (Exception e) {
+			System.out.println("Exception in media player prepare....");
+			e.printStackTrace();
+		}
+
+		mediaPlayer.start();
+	}
+}

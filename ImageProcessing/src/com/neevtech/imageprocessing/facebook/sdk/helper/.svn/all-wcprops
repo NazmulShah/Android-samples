@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-projects/!svn/ver/138/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper
+END
+SessionEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-projects/!svn/ver/14/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper/SessionEvents.java
+END
+BaseDialogListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-projects/!svn/ver/14/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper/BaseDialogListener.java
+END
+Paging.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-projects/!svn/ver/14/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper/Paging.java
+END
+SessionStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-projects/!svn/ver/14/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper/SessionStore.java
+END
+FacebookConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-projects/!svn/ver/138/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper/FacebookConnector.java
+END
+BaseRequestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/android-projects/!svn/ver/84/Source/Trunk/Neevimagick/ImageProcessing/src/com/neevtech/imageprocessing/facebook/sdk/helper/BaseRequestListener.java
+END

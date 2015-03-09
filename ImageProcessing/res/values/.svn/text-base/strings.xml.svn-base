@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageProcessing</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="shareText">Share</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+
+    <string-array name="frames_array">
+        <item>Frame 1</item>
+        <item>Frame 2</item>
+        <item>Frame 3</item>
+        <item>Frame 4</item><!-- 
+        <item>Frame 5</item> -->
+        <!-- <item>Frame 7</item> -->
+        <!--
+        <item>Frame 8</item>
+        <item>Frame 9</item>
+        <item>Frame 10</item>
+        <item>Frame 11</item>
+        <item>Frame 12</item>
+        <item>Frame 13</item>
+        <item>Frame 14</item>
+        <item>Frame 15</item>
+        <item>Frame 16</item>
+        <item>Frame 17</item>
+        <item>Frame 18</item>
+        <item>Frame 19</item>
+        <item>Frame 20</item>
+        <item>Frame 21</item>
+        <item>Frame 22</item>
+        <item>Frame 23</item>
+        <item>Frame 24</item>
+        -->
+    </string-array>
+    <string-array name="effects">
+        <item>None</item>
+        <item>Invert</item>
+        <item>Hue change</item>
+        <item>Brightness</item>
+        <item>Contrast</item>
+        <item>Saturation</item>
+        <item>Dull</item>
+        <item>Engrave</item>
+        <item>Snow</item>
+        <item>Sharpness</item>
+        <item>Mean removal</item>
+        <item>Emboss</item>
+        <item>Flip</item>
+    </string-array>
+    <string-array name="filter_effect">
+        <item>None</item>
+        <item>Gray Scale</item>
+        <item>Black Filter</item>
+        <item>Shading Filter</item>
+    </string-array>
+    <string-array name="Brushes">
+        <item>Emboss</item>
+        <item>Spray</item>
+        <item>Interlace</item>
+        <item>Rainbow</item>
+        <item>Parallel</item>
+       <!--  <item>Neon</item>
+        <item>Blur1</item> -->
+        <item>Hollow</item>
+       <!--  <item>Blur3</item> -->
+    </string-array>
+
+</resources>
