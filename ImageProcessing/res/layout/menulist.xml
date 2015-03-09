@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -313,4 +314,321 @@
         </LinearLayout>
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/menulistcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:weightSum="9" >
+
+        <LinearLayout
+            android:id="@+id/colorLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/color"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/colors" />
+
+            <TextView
+                android:id="@+id/colortext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Colors"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/colorLevelsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/colorLevelsImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/colorlevel" />
+
+            <TextView
+                android:id="@+id/colorleveltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Color levels"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/effectLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/effectsImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/effects" />
+
+            <TextView
+                android:id="@+id/effectstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Effects"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/frames"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/frame" />
+
+            <TextView
+                android:id="@+id/framestext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Frames"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/paintLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/paint"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/paint" />
+
+            <TextView
+                android:id="@+id/painttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Paint"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/saveLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/saveimage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/save" />
+
+            <TextView
+                android:id="@+id/savetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line6"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/shareLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/share" />
+
+            <TextView
+                android:id="@+id/sharetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Share"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line7"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/distortLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/distort"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/distortions" />
+
+            <TextView
+                android:id="@+id/distorttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Distort"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line8"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/resetLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/reset"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/reset" />
+
+            <TextView
+                android:id="@+id/resettext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1.5"
+                android:text="Reset"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </RelativeLayout>

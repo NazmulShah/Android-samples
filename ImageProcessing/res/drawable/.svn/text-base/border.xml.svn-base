@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
@@ -26,4 +27,34 @@
         </shape>
     </item>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#FC2007" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <solid android:color="#ff252525" />
+        </shape>
+    </item>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </layer-list>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -27,4 +28,35 @@
         android:layout_toRightOf="@+id/taggedVideoThumbnail"
         android:text="# of bookmarks" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/taggedVideoThumbnail"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:id="@+id/taggedVideoDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/taggedVideoThumbnail"
+        android:text="Video Name" />
+
+    <TextView
+        android:id="@+id/listofBookmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taggedVideoDesc"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/taggedVideoThumbnail"
+        android:text="# of bookmarks" />
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </RelativeLayout>

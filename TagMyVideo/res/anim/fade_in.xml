@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:shareInterpolator="false" >
@@ -8,4 +9,16 @@
         android:startOffset="0"
         android:toAlpha="1.0" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </set>

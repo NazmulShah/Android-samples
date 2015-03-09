@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <com.neevtech.imageprocessing.MyHorizontalScrollView 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -21,4 +22,29 @@
         android:padding="0px" >
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<com.neevtech.imageprocessing.MyHorizontalScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_margin="0px"
+    android:background="#00ffffff"
+    android:fadingEdge="none"
+    android:fadingEdgeLength="0px"
+    android:padding="0px"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:background="#ffffffff"
+        android:orientation="horizontal"
+        android:padding="0px" >
+    </LinearLayout>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </com.neevtech.imageprocessing.MyHorizontalScrollView >

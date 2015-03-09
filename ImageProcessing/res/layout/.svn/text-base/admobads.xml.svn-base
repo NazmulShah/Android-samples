@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -21,4 +22,29 @@
             myapp:secondaryTextColor="#CCCCCC" />
     </RelativeLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res/com.neevtech.imageprocessing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/admoblayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <com.admob.android.ads.AdView
+            android:id="@+id/ads"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            myapp:backgroundColor="#000000"
+            myapp:primaryTextColor="#FFFFFF"
+            myapp:secondaryTextColor="#CCCCCC" />
+    </RelativeLayout>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </RelativeLayout>

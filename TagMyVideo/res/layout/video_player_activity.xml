@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -150,4 +151,158 @@
             android:textColor="#ff0e75aa" />
     </RelativeLayout>
 
+=======
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <SurfaceView
+        android:id="@+id/SurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </SurfaceView>
+
+    <RelativeLayout
+        android:id="@+id/tagFrame"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/browseBookmarks"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/browse_bookmark" />
+
+        <ListView
+            android:id="@+id/taglist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#99000000"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:padding="10dp"
+            android:visibility="gone" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mediaController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#99000000"
+        android:padding="0dip" >
+
+        <LinearLayout
+            android:id="@+id/toppanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/currentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight=".2"
+                android:gravity="center_horizontal"
+                android:text="00:00"
+                android:textColor="#ff0e75aa" />
+
+            <com.example.tagmyvideo.ui.widget.CustomSeekBar
+                android:id="@+id/mediaProgressbar"
+                style="@style/CustomSeekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.6"
+                android:defaultValue="0"
+                android:key="seekBar"
+                android:title="Set the default time" />
+
+            <TextView
+                android:id="@+id/totalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight=".2"
+                android:gravity="center_horizontal"
+                android:text="00:00"
+                android:textColor="#ff0e75aa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toppanel"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <View
+                android:id="@+id/dmybookMarkImage"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight=".4" />
+
+            <ImageView
+                android:id="@+id/backwardBtn"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight=".4"
+                android:src="@drawable/backward" />
+
+            <ImageView
+                android:id="@+id/playpauseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight=".4"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:id="@+id/forwardBtn"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight=".4"
+                android:src="@drawable/forward" />
+
+            <View
+                android:id="@+id/blankbookMarkImage"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight=".2" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bookMarkImage"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/toppanel"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/bookmark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/headerPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#99000000"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#ff0e75aa" />
+    </RelativeLayout>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </FrameLayout>

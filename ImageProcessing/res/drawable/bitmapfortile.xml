@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/background2"
     android:tileMode="repeat" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/background2"
+    android:tileMode="repeat" />
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d

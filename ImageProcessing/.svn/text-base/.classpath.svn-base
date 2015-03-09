@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -15,3 +16,22 @@
 	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/twitter4j-stream-2.2.6.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/admob-sdk-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/Facebook.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/signpost-core-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/twitter4j-async-2.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/twitter4j-core-2.2.6 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/twitter4j-media-support-2.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shruti/workspace/ImageProcessing/libs/twitter4j-stream-2.2.6.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d

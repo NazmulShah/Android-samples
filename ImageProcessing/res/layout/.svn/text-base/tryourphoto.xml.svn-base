@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <GridView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/grid_view"
@@ -11,4 +12,19 @@
     android:gravity="center"
     android:stretchMode="columnWidth" > 
  
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blacktransparent"
+    android:numColumns="2"
+    android:columnWidth="90dp"
+    android:horizontalSpacing="10dp"
+    android:verticalSpacing="10dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth" > 
+ 
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </GridView>

@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <dimen name="galleryViewThumbnail.width">130dp</dimen>
     <dimen name="galleryViewThumbnail.height">130dp</dimen>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="galleryViewThumbnail.width">130dp</dimen>
+    <dimen name="galleryViewThumbnail.height">130dp</dimen>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </resources>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
 
     <color name="black_overlay">#66000000</color>
@@ -9,4 +10,17 @@
     <color name="whiteBackground">#DDFCFCF0</color>
     <color name="gray">#999999</color>
 
+=======
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="transparentwhite">#70ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blacktransparent">#b0000000</color>
+    <color name="listcolor">#CCC</color>
+    <color name="whiteBackground">#DDFCFCF0</color>
+    <color name="gray">#999999</color>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </resources>

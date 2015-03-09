@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -542,4 +543,550 @@
         </LinearLayout>
     </HorizontalScrollView>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/apply"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/apply" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imagesLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topBar"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/originalImage"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/flowers" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/adjustColors"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" >
+
+        <RelativeLayout
+            android:id="@+id/levelsLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/imagesLayout"
+            android:layout_marginBottom="20dp" >
+
+            <LinearLayout
+                android:id="@+id/adjustmentLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="4" >
+
+                <TextView
+                    android:id="@+id/ajustcolorText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Adjust colors"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/hueadjustmentLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/hueText"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Hue"
+                        android:textColor="@color/white" />
+
+                    <SeekBar
+                        android:id="@+id/seekbarOfHue"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/saturationadjustmentLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/saturationText"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Saturation"
+                        android:textColor="@color/white" />
+
+                    <SeekBar
+                        android:id="@+id/seekbarOfSaturation"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/brightnessadjustmentLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/brightnessText"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Brightness"
+                        android:textColor="@color/white" />
+
+                    <SeekBar
+                        android:id="@+id/seekbarOfBrightness"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.5" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/adjustColorLevels"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" >
+
+        <RelativeLayout
+            android:id="@+id/levelsLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/imagesLayout"
+            android:layout_marginBottom="20dp" >
+
+            <LinearLayout
+                android:id="@+id/adjustmentLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="4" >
+
+                <TextView
+                    android:id="@+id/adjustcolorlevelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Adjust colors levels"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/redadjustmentLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/redText"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Red"
+                        android:textColor="@color/white" />
+
+                    <SeekBar
+                        android:id="@+id/seekbarOfRed"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/greenadjustmentLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/greenText"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Green"
+                        android:textColor="@color/white" />
+
+                    <SeekBar
+                        android:id="@+id/seekbarOfGreen"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/blueadjustmentLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/blueText"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Blue"
+                        android:textColor="@color/white" />
+
+                    <SeekBar
+                        android:id="@+id/seekbarOfBlue"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.5" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/effectsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/firstRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="8" >
+
+            <LinearLayout
+                android:id="@+id/firstVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/invertText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Invert"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/invertImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/secondVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/dullText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Dull"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/dullImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thirdVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/engraveText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Engrave"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/engraveImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fourthVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/embossText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Emboss"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/embossImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fifthVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/meanremovalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Mean removal"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/meanremovalImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sixthVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/flipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Flip"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/flipImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/seventhVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/blackText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Black"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/blackImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/eighthVertRow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/snowText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="Snow"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/snowImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flowers" >
+                </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+>>>>>>> 89fda57b84f3f45b593875cb6cde08a56a510b8d
 </RelativeLayout>
