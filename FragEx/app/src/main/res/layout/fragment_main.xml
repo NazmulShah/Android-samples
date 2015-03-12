@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/red"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:text="@string/main_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <Button
+            android:text="@string/fragment_one_main"
+            android:id="@+id/fragment_one_main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <Button
+            android:text="@string/fragment_two_main"
+            android:id="@+id/fragment_two_main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+</LinearLayout>
