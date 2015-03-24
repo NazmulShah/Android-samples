@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     }
 
     private void initFragment() {
-        getFragmentManager().beginTransaction().add(R.id.main_fragment_container, new MainFragment()).commit();
+        getFragmentManager().beginTransaction().add(R.id.main_fragment_container, new MainFragment()).commit().addToBacksack(null);
     }
 
     @Override

@@ -1,16 +1,40 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
 
-    <TextView
-            android:text="@string/hello_world"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/attendance_main_button"
+        android:layout_margin="15dp"
+        android:onClick="attendanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/attendance"/>
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/crm_main_button"
+        android:layout_margin="15dp"
+        android:onClick="crmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crm"/>
+
+    <Button
+        android:id="@+id/incentive_main_button"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:onClick="incentiveButton"
+        android:layout_height="wrap_content"
+        android:text="@string/incentive"/>
+
+    <Button
+        android:id="@+id/test_main_button"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testingButton"
+        android:text="@string/test"/>
+
+</LinearLayout>
