@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/bg"
+              android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            style="@style/stringA"
+            android:id="@+id/a1"
+            />
+
+        <View
+            style="@style/stringA"
+            android:id="@+id/a2"
+            />
+
+        <View
+            style="@style/stringA"
+            android:id="@+id/a3"
+            />
+
+        <View
+            style="@style/stringA"
+            android:id="@+id/a4"
+            />
+
+        <View
+            style="@style/stringA"
+            android:id="@+id/a5"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

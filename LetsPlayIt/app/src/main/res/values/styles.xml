@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="string">
+        <item name="android:background">#F00</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">.2</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">10dp</item>
+    </style>
+
+    <style name="stringA" parent="string">
+        <item name="android:layout_width">2dp</item>
+    </style>
+
+    <style name="stringB" parent="string">
+        <item name="android:layout_width">2dp</item>
+    </style>
+
+    <style name="stringC" parent="string">
+        <item name="android:layout_width">2dp</item>
+    </style>
+
+    <style name="stringD" parent="string">
+        <item name="android:layout_width">2dp</item>
+    </style>
+
+    <style name="stringE" parent="string">
+        <item name="android:layout_width">2dp</item>
+    </style>
+
+    <style name="stringF" parent="string">
+        <item name="android:layout_width">2dp</item>
+    </style>
+
+</resources>
